@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+int main (){
+char nome[25];
+printf ("Insira seu nome: ");
+fgets(nome, 25, stdin);
+printf ("%s", nome);
+printf("%d de chars",( strlen(nome)  - 1));
+}
