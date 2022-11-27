@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+int main (){
+    char cor[8];
+    printf("Digite uma das cores a seguir: branco, verde ou amarelo");
+    scanf("%s",cor);
+    if (strcmp(cor,"branco")==0 ||strcmp(cor,"verde")==0 || strcmp(cor,"amarelo")==0 )
+    {
+        printf ("Cor %s valida",cor);
+    }else{
+        printf("Cor invalida");
+    }
+}
