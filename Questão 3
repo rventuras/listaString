@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+int main (){
+    char nome[100] , email[100] , endereco[100];
+    char nome2[100] , email2[100] , endereco2[100];
+    
+    printf("Digite seu nome: ");
+    fflush(stdin);
+    fgets(nome,100,stdin);
+    
+    printf("Digite seu email: ");
+    fflush(stdin);
+    fgets(email,100,stdin);
+    
+    printf("Digite seu endereco: ");
+    fflush(stdin);
+    fgets(endereco,100,stdin);
+    
+    strcpy(nome2,nome);
+	strcpy(email2,email);
+	strcpy(endereco2,endereco);
+    printf("Backup feito com sucesso\n");
+        
+}
